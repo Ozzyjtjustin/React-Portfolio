@@ -1,5 +1,5 @@
-import React form 'react';
-
-exprt default (
-
+import React from 'react';
+import {Router, Route, hasHistory } from 'react-router;'
+export default (
+  Router
 );
