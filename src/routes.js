@@ -1,5 +1,9 @@
 import React from 'react';
-import {Router, Route, hasHistory } from 'react-router;'
+import {IndexRoute, Router, Route, hasHistory } from 'react-router;'
 export default (
-  Router
+  <Router history={hasHistory}>
+    <Route path="/" component={App}>
+      <IndexRoute/>
+    </Route>
+  </Router>
 );
